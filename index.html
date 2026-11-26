@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trantor Tools — Browser Extensions &amp; Web Utilities</title>
+    <meta
+      name="description"
+      content="Trantor Tools builds lightweight, privacy-first browser extensions and focused web utilities."
+    />
+    <style>
+      :root {
+        --bg: #0f1115;
+        --surface: #171a21;
+        --border: #262b36;
+        --text: #f1f3f5;
+        --muted: #9aa3b2;
+        --accent: #3b82f6;
+        --ufc-red: #e52521;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        padding: 48px 20px;
+      }
+      .container {
+        max-width: 760px;
+        margin: 0 auto;
+      }
+      header {
+        margin-bottom: 48px;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 28px;
+      }
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 1.6rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+      .logo-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        background: var(--accent);
+        color: #fff;
+        font-weight: 800;
+        font-size: 1rem;
+        letter-spacing: -0.04em;
+      }
+      .tagline {
+        margin-top: 12px;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+      h2 {
+        font-size: 1.15rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--muted);
+        margin-bottom: 18px;
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 24px;
+        margin-bottom: 24px;
+      }
+      .card-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 10px;
+      }
+      .card-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+      .pill {
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 4px 10px;
+        border-radius: 999px;
+        background: rgba(229, 37, 33, 0.14);
+        color: #ff6b68;
+        border: 1px solid rgba(229, 37, 33, 0.35);
+      }
+      .card p {
+        color: var(--muted);
+        margin-bottom: 16px;
+      }
+      .card-links a {
+        color: var(--text);
+        text-decoration: none;
+        font-size: 0.92rem;
+        font-weight: 500;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 2px;
+      }
+      .card-links a:hover {
+        border-color: var(--text);
+      }
+      footer {
+        margin-top: 56px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      footer a {
+        color: var(--text);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="brand">
+          <span class="logo-badge">TT</span>
+          <span>Trantor Tools</span>
+        </div>
+        <p class="tagline">
+          Lightweight, privacy-first browser extensions and focused web
+          utilities.
+        </p>
+      </header>
+
+      <main>
+        <h2>Products</h2>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Spoiler Free for UFC</div>
+            <span class="pill">Chrome &amp; Edge Extension</span>
+          </div>
+          <p>
+            Instantly hides fight winners, methods, rounds, and performance
+            bonuses on UFC.com and UFCEspanol.com with zero flicker, allowing
+            selective reveal when you are ready.
+          </p>
+          <div class="card-links">
+            <a href="/spoiler-free-for-ufc/privacy.html"
+              >Privacy Policy &rarr;</a
+            >
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div>Operated by <strong>Trantor Tools</strong></div>
+        <div>
+          Support &amp; inquiries (preferred via email):
+          <a href="mailto:trantor.tools@gmail.com">trantor.tools@gmail.com</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
