@@ -104,6 +104,19 @@
         color: var(--muted);
         margin-bottom: 16px;
       }
+      code {
+        color: var(--text);
+        background: rgba(255, 255, 255, 0.06);
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+      .supported-domains {
+        font-size: 0.9rem;
+        color: var(--muted);
+        opacity: 0.85;
+        margin-bottom: 16px;
+        margin: 20px 0;
+      }
       .card-links a {
         color: var(--text);
         text-decoration: none;
@@ -153,12 +166,17 @@
           </div>
           <p>
             Instantly hides fight winners, methods, rounds, and performance
-            bonuses on UFC.com and UFCEspanol.com with zero flicker, allowing
-            selective reveal when you are ready.
+            bonuses on UFC.com and official regional editions
+            (<code>/event/*</code>) with zero flicker, letting you reveal the
+            winner or the fight outcome independently when you are ready.
           </p>
+          <div class="supported-domains">
+            Supported event pages: ufc.com, ufcespanol.com, ufc.com.br, ufc.ru,
+            jp.ufc.com, kr.ufc.com
+          </div>
           <div class="card-links">
             <a href="/spoiler-free-for-ufc/privacy.html"
-              >Privacy Policy &rarr;</a
+              >Privacy Policy &amp; Terms &rarr;</a
             >
           </div>
         </div>
